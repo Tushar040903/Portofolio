@@ -20,7 +20,7 @@
                 </ul>
             </nav>
             <div class="header-text">
-                <p>Machine learning enthusiast,<br>Passionate Web developer</p>
+                <span id="element"></span>
                 <h1>Hi, I'm <span>Tushar</span><br> Bhardwaj from India<h1>
             </div>
             <a href="https://drive.google.com/file/d/1so1u-ufgbhZhBSE1ClJGJm1905ufUo3X/view?usp=drive_link" class="btn">Resume</a>
@@ -169,6 +169,15 @@
             <p>copyright <i class="fa-regular fa-copyright"></i> Tushar Bhardwaj</p>
         </div>
     </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+          strings: [ 'Machine learning enthusiast'],
+          typeSpeed: 50,
+        });
+      </script>
 
     <script>
         var tablinks = document.getElementsByClassName("tab-links");
