@@ -42,7 +42,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #004fff;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -59,10 +59,10 @@ nav ul li a:hover:after{
     margin-top: 20px;
 }
 .header-text h1 span{
-    color: #ff004f;
+    color: #004fff;
 }
 .btn{
-    background-color: #ff004f;
+    background-color: #004fff;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -109,7 +109,7 @@ nav ul li a:hover:after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #004fff;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -123,7 +123,7 @@ nav ul li a:hover:after{
     margin: 10px 0;
 }
 .tab-contents ul li span{
-    color: #ff004f;
+    color: #004fff;
     font-size: 20px;
 }
 .tab-contents{
@@ -169,7 +169,7 @@ nav ul li a:hover:after{
     display: inline-block;
 }
 .project-list div:hover{
-    background: #ff004f;
+    background: #004fff;
     transform: translateY(-10px);
 }
 
@@ -185,7 +185,7 @@ nav ul li a:hover:after{
     margin-top: 30px;
 }
 .contact-left p i{
-    color: #ff004f;
+    color: #004fff;
     margin-right: 15px; 
     font-size: 25px;   
 }
@@ -201,7 +201,7 @@ nav ul li a:hover:after{
     transition: transform 0.5s;
 }
 .social-icons a:hover{
-    color: #ff004f;
+    color: #004fff;
     transform: translateY(-5px);
 }
 .contact-rigth form{
